@@ -4,7 +4,7 @@ const plan = document.querySelector(".nav-link__item");
 const SiammaykaLogo = document.querySelector(".nav-link__logo");
 
 SiammaykaLogo.addEventListener("click", () => {
-  window.location.href = "/Siammayka-Website/";
+  window.location.href = "https://worrasin.github.io/Siammayka-Website/";
 });
 
 const details = document.querySelectorAll(".detail");
