@@ -1,7 +1,7 @@
 const SiammaykaLogo = document.querySelector(".nav-link__logo");
 
 SiammaykaLogo.addEventListener("click", () => {
-  window.location.href = "/";
+  window.location.href = "/Siammayka-Website/";
 });
 const addLineAccount = document.querySelector(".Contact-line");
 
