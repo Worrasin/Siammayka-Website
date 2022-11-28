@@ -13,7 +13,7 @@ const Brand = document.querySelector(".Brand-rep__detail");
 datas.forEach((data) => {
   const node = document.createElement("img");
   Brand.appendChild(node);
-  node.setAttribute("src", `/Image/representative/${data}.png`);
+  node.setAttribute("src", `/Siammayka-Website/Image/representative/${data}.png`);
   node.setAttribute("loading", `lazy`);
 });
 
