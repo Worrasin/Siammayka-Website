@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.information {
+  margin-left: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.information a {
+  color: black;
+}
+.location-icons {
+  margin-top: 10px;
+  width: 30px;
+}
+hr {
+  margin: 20px 10px;
+}
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+.Contact {
+  margin: 70px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Contact div:active,
+.Contact div:hover {
+  background-color: var(--HeadandFoot);
+}
+.Contact div {
+  height: 240px;
+  padding: 20px;
+  border-radius: 130px;
+  background-color: rgba(0, 0, 0, 0.13);
+  box-shadow: var(--box-shadow);
+}
+.Contact-image {
+  width: 200px;
+  height: 50px;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.Contact-tel {
+  display: inline-block;
+  grid-area: tel;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.Contact-line {
+  grid-area: line;
+  text-align: center;
+}
+.Contact-mail {
+  grid-area: email;
+  text-align: center;
+}
+main {
+  animation: reveal 1s;
+}
+.nav-link__item,
+.Contact-line {
+  cursor: pointer;
+}
+@media (max-width: 888px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact div {
+    margin: 10px auto;
+  }
+  .information a {
+    word-wrap: break-word;
+  }
+}
