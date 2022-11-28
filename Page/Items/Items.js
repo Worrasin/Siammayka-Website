@@ -38,7 +38,7 @@ details.forEach((detail) => {
   items.appendChild(DivTagCreator);
   ImgTagCreator.setAttribute(
     "src",
-    `/Image/Products/${detail.image !== "" ? detail.image : noImageIcon}`
+    `/Siammayka-Website/Image/Products/${detail.image !== "" ? detail.image : noImageIcon}`
   );
   ImgTagCreator.setAttribute("loading", "lazy");
   DivTagCreator.appendChild(TitleTagCreator);
