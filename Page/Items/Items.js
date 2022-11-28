@@ -24,7 +24,7 @@ const details = [
 ];
 
 SiammaykaLogo.addEventListener("click", () => {
-  window.location.href = "/Siammayka-Website/";
+  window.location.href = "https://worrasin.github.io/Siammayka-Website/";
 });
 
 details.forEach((detail) => {
